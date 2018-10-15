@@ -16,7 +16,7 @@ Execute function with the next JSON message
 ```
 
 `
-curl -H "Content-Type: text/plain" localhost:8080/calculateFunction -d Hello
+curl localhost:8080/calculateFunction -H "Content-Type: application/json" --data "{\"x\":10,\"y\":3}"
 `
 
 ## References
